@@ -1,0 +1,135 @@
+/*font-family: 'Teko', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Catamaran', sans-serif;*/
+
+body{
+  background-color:#b8b6ba;
+}
+
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  width:350px;
+  margin:auto;
+  padding:50px;
+  text-align: center;
+  position: relative;top:30px;
+
+}
+
+.name{
+  font-family: 'Orbitron', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  padding: 15px;
+  position: absolute;left:15px; top:15px;
+}
+
+.header{
+	position: fixed;top:0px;left:0px;
+	width:100%;
+	height:42.5px;
+	z-index: 1000; 
+}
+
+.tabs{
+	text-align: right;
+	padding:15px;
+}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px; 
+  font-family: 'Catamaran', sans-serif;
+}
+
+.header a:hover {
+  background-color: #b8b6ba;
+  color: black;
+ }
+
+.header a.active {
+  background-color: #6700ce;
+  color: white;
+ }
+
+.headerTabs {
+  float: right;
+ }
+
+.header a {
+    float: none;
+    display: inline-block;
+    text-align: left;
+  }
+
+
+#header{
+	background-color: black;
+	opacity: 1;
+	width:100%;
+	height: 200px;
+	position: absolute; top:100px; left:0;
+	z-index: 1000;
+	text-align: center;
+
+
+
+}
+
+
+a:hover{
+	color: white;
+  	border: none;
+  	color: white;
+  	text-align: right;
+  	font-size: 16px;
+  	margin: 4px 2px;
+
+}
+
+
+.soundcloud{
+  align-items: center;
+  position: absolute; top:160px;
+  z-index: 50;
+
+}
+
+.funky{
+  position: absolute;left:52%; top: 215px;
+  display: flex;
+  display: none;
+}
+
+.events{
+  display: flex;
+  float: right;
+  font-family: 'Orbitron', sans-serif;
+  padding: 30px;
+  position: relative;top:300px;right:100px;
+  background-color: #6700ce;
+  border-radius: 20%;
+
+
+}
+
+.text{
+  color:white;
+  text-decoration: none;
+  display: inline-flex;
+  z-index: 1;
+}
+
+img{
+  width: 150px;
+  height:150px;
+  transform: rotate(120deg);
+  position: absolute;top:0; left:0;
+}
+

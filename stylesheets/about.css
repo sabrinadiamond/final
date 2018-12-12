@@ -1,0 +1,150 @@
+/*font-family: 'Teko', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Catamaran', sans-serif;*/
+
+body{
+	background-color:#b8b6ba;
+}
+
+h1{
+	font-family: 'Orbitron', sans-serif;
+	width:500px;
+	padding:30px;
+	text-align: center;
+	margin:auto;
+
+}
+
+.subheader{
+	width:100%;
+	position: relative;top:30px;
+}
+
+p{
+	font-family: 'Catamaran', sans-serif;
+	position: relative;top:50px;
+	font-size: 20px;
+	margin: 15px;
+}
+
+img{
+	margin: 15px;
+	border-radius:2%;
+	height: 385px;
+	width: 318px;
+	position: relative;top:25px;
+	z-index: 75;
+
+}
+
+hr{
+	position: relative;bottom:15px;
+}
+
+
+.header{
+	position: fixed;top:0px;left:0px;
+	width:100%;
+	height:42.5px;
+	z-index: 1000;
+	background-color:#b8b6ba; 
+	font-family: 'Catamaran', sans-serif;
+}
+
+.headertabs{
+	text-align: right;
+}
+
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+.header a:hover {
+  background-color: #b8b6ba;
+  color: black;
+ }
+
+.header a.active {
+  background-color: #6700ce;
+  color: white;
+ }
+
+.headerTabs {
+  float: right;
+ }
+
+.header a {
+    float: none;
+    display: inline-block;
+    text-align: left;
+  }
+
+
+#header{
+	background-color: black;
+	opacity: 1;
+	width:100%;
+	height: 200px;
+	position: absolute; top:100px; left:0;
+	z-index: 1000;
+	text-align: center;
+}
+
+
+a:hover{
+	color: white;
+  	border: none;
+  	color: #a32704;
+  	text-align: right;
+  	font-size: 16px;
+  	margin: 4px 2px;
+
+}
+
+#alienPic{
+	height: 80px;
+	width: 80px;
+	position: absolute; top:375px; left:5px;
+	z-index: 50;
+	margin-bottom: 2px;
+}
+
+#facebook{
+  position: absolute;top:500px; left:400px;
+  display: flex;
+  width: 10%;
+  height: 16%;
+  z-index: 1000;
+  padding: 5px;
+}
+#instagram{
+  position: absolute; top:500px; left:550px;
+  display: flex;
+  width: 10%;
+  height: 16%;
+  z-index: 1000;
+  padding: 5px;
+}
+
+#soundcloud{
+  position: absolute; top:495px; left:700px;
+  width: 11%;
+  height:18%;
+  display: flex;
+  padding: 5px;
+}
+#spotify{
+  position: absolute; top:500px; left:850px;
+  display: flex;
+  width: 10%;
+  height: 16%;
+  z-index: 1000;
+  padding: 5px;
+}

@@ -12,7 +12,7 @@ $("#holyman").hover(function(){
 
 	$(window).on("mousemove",function(e){
 		$(follower).position()
-		// console.log(e)
+		console.log(e)
 		var newX = e.pageX;
 		var newY = e.pageY;
 
@@ -20,4 +20,6 @@ $("#holyman").hover(function(){
 	$("#alienPic").css("top",newY - 5);
 
 	});
+
+});
 	
